@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Making UI</title>
+    </head>
+    <body>
+        <div id="name_box_div">
+            <input type="text" id="name_box" placeholder="Enter username...">
+            <button id="text_submit" onclick="createAccount()">Create Account/Login</button>
+            <input type="password" id="password_box" placeholder="Ener password...">
+        </div>
+        <div id="buttons_div">
+            <div id="button_one_div">
+                <button id="button_one" class="buttons">button_one</button>
+            </div>
+            <div id="button_two_div">
+                <button id="button_two" class="buttons" onclick="accountDetails()">Account Details</button>
+            </div>
+            <div id="button_three_div">
+                <button id="button_three" class="buttons">button_three</button>
+            </div>
+            <div id="button_four_div">
+                <button id="button_four" class="buttons">button_four</button>
+            </div>
+            <div id="button_five_div">
+                <button id="button_five" class="buttons">button_five</button>
+            </div>
+            <div id="button_six_div">
+                <button id="button_six" class="buttons" onclick="deleteAccount()">Delete Account</button>
+            </div>
+        </div>
+        
+        <div id="root">
+            
+        </div>
+    </body>
+</html>

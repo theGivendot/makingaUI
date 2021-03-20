@@ -1,0 +1,81 @@
+#name_box {
+    width: 30vw;
+    height: 32px;
+    margin-left: 34%;
+    font-size: 18px;
+}
+#name_box_div {
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+#text_submit {
+    height: 50px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #c55a5a;
+    border-color: #c55a5a;
+}
+#buttons_div {
+    text-align: center;
+    width: 38vw;
+    height: 4vw;
+    margin-left: 34%;
+}
+.buttons {
+    font-size: 10px;
+    text-align: center;
+    float: left;
+    margin: 18px;
+    border-radius: 20px;
+    background-color: #be4040;
+    border-color: #be4040;
+}
+#button_one {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+#button_two {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+#button_three {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+#button_four {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+#button_five {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+#button_six {
+    color: white;
+    width: 8vw;
+    height: 3vw;
+}
+body {
+    background-color: #25253f;
+}
+#root {
+    color: #50fa7b;
+    position: relative;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#password_box {
+    margin-top: 4px;
+    width: 30vw;
+    height: 32px;
+    margin-left: 34%;
+    font-size: 18px;
+}
